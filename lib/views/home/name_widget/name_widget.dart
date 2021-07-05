@@ -12,7 +12,7 @@ class NameWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     double cheight = MediaQuery.of(context).size.height * 0.55;
 
-    final sNameWidget = "Satyam\nGoyal."
+    final sNameWidget = "Anurag\nTekale."
         .text
         .white
         .xl6
@@ -91,7 +91,7 @@ class SocialAccounts extends StatelessWidget {
         color: Colors.white,
       )
           .mdClick(() {
-            launch("mailto:goyalsatyam8@gmail.com");
+            launch("anuragtekale300@gmail.com");
           })
           .make()
           .showCursorOnHover
@@ -102,7 +102,7 @@ class SocialAccounts extends StatelessWidget {
         color: Colors.white,
       )
           .mdClick(() {
-            launch("https://twitter.com/SatYug26");
+            launch("https://twitter.com/Anurag_2402");
           })
           .make()
           .showCursorOnHover
@@ -113,7 +113,7 @@ class SocialAccounts extends StatelessWidget {
         color: Colors.white,
       )
           .mdClick(() {
-            launch("https://www.instagram.com/s.a.t.y.u_/");
+            launch("https://www.instagram.com/anurag__tekale/");
           })
           .make()
           .showCursorOnHover
@@ -124,7 +124,7 @@ class SocialAccounts extends StatelessWidget {
         color: Colors.white,
       )
           .mdClick(() {
-            launch("https://www.linkedin.com/in/satyu26/");
+            launch("https://www.linkedin.com/in/anurag-tekale-9b17601a6/");
           })
           .make()
           .showCursorOnHover
@@ -135,19 +135,8 @@ class SocialAccounts extends StatelessWidget {
         color: Colors.white,
       )
           .mdClick(() {
-            launch("https://github.com/SatYu26");
+            launch("https://github.com/anurag-tekale");
           })
-          .make()
-          .showCursorOnHover
-          .moveUpOnHover,
-      20.widthBox,
-      Icon(
-        AntDesign.codesquare,
-        color: Colors.white,
-      )
-          .mdClick(() {
-        launch("https://leetcode.com/satyu/");
-      })
           .make()
           .showCursorOnHover
           .moveUpOnHover,

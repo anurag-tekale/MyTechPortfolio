@@ -54,8 +54,8 @@ class Introduction extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
-    final aboutIntroWidget ="Satyam is a 3rd-year student at SRM Institute of Science and Technology pursuing the Electrical and Electronics branch."
-        "Despite being from a non-technical branch, Satyam is highly interested and skilled in Computer Science"
+    final aboutIntroWidget ="Anurag is a 3rd-year student at Mahindra University pursuing Mechanical Branch."
+        "Despite being from a non-technical branch, Anurag is highly interested and skilled in Computer Science"
         " and is constantly making his way to learn new skills and grab knowledge every day through hard work and dedication"
         "to improving himself to succeed in the future.\n\n"
         "He also feels uncomfortable talking about himself in the third person ;)\n"
