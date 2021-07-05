@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:satyam_website/widgets/nav_drawer/navbar_item_mobile.dart';
-import 'package:satyam_website/widgets/navigation_bar/navbar_item.dart';
+import 'package:anurag_website/widgets/nav_drawer/navbar_item_mobile.dart';
 
 
 class DrawerItem extends StatelessWidget {

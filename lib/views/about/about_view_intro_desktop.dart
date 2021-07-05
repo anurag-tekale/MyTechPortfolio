@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
-import 'package:satyam_website/widgets/custom_text/CustomText.dart';
+import 'package:anurag_website/widgets/custom_text/CustomText.dart';
 
 class IntroductionAboutDesktop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    double c_width = MediaQuery.of(context).size.width * 0.65;
-    double c_height = MediaQuery.of(context).size.height * 0.8;
+    double cwidth = MediaQuery.of(context).size.width * 0.65;
+    double cheight = MediaQuery.of(context).size.height * 0.8;
     return Container(
       padding: const EdgeInsets.fromLTRB(0, 20, 25, 0),
-      width: c_width,
-      height: c_height,
+      width: cwidth,
+      height: cheight,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.end,
@@ -52,7 +52,7 @@ class Introduction extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
-    final AboutintroWidget =
+    final aboutIntroWidget =
         "Satyam is a 3rd-year student at SRM Institute of Science and Technology pursuing the Electrical and Electronics branch."
             "Despite being from a non-technical branch, Satyam is highly interested and skilled in Computer Science"
             " and is constantly making his way to learn new skills and grab knowledge every day through hard work and dedication"
@@ -78,7 +78,7 @@ class Introduction extends StatelessWidget {
                 : context.percentWidth * 40);
     return ListView(children: <Widget>[
       // Flexible(child: AboutintroWidget),
-      AboutintroWidget,
+      aboutIntroWidget,
       SizedBox(
         height: 20,
       ),

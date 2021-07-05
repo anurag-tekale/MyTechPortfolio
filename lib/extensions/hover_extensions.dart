@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:html' as html;
-import 'package:satyam_website/extensions/translate_on_hover.dart';
+
+import 'package:anurag_website/extensions/translate_on_hover.dart';
+
 
 extension HoverExtensions on Widget {
   // Get a regerence to the body of the view

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:satyam_website/widgets/custom_text/CustomText.dart';
+import 'package:anurag_website/widgets/custom_text/CustomText.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 
@@ -7,12 +7,12 @@ class IntroductionAboutMobile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double c_width = MediaQuery.of(context).size.width*0.6;
-    double c_height = MediaQuery.of(context).size.height*2.55;
+    double cwidth = MediaQuery.of(context).size.width*0.6;
+    double cheight = MediaQuery.of(context).size.height*2.55;
     return Container(
       padding: const EdgeInsets.fromLTRB(10, 0, 5, 0),
-      width: c_width,
-      height: c_height,
+      width: cwidth,
+      height: cheight,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -54,7 +54,7 @@ class Introduction extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
-    final AboutintroWidget ="Satyam is a 3rd-year student at SRM Institute of Science and Technology pursuing the Electrical and Electronics branch."
+    final aboutIntroWidget ="Satyam is a 3rd-year student at SRM Institute of Science and Technology pursuing the Electrical and Electronics branch."
         "Despite being from a non-technical branch, Satyam is highly interested and skilled in Computer Science"
         " and is constantly making his way to learn new skills and grab knowledge every day through hard work and dedication"
         "to improving himself to succeed in the future.\n\n"
@@ -81,7 +81,7 @@ class Introduction extends StatelessWidget {
         addAutomaticKeepAlives: true,
         children: <Widget>[
           // Flexible(child: AboutintroWidget),
-          AboutintroWidget,
+          aboutIntroWidget,
           SizedBox(
             height: 10,
           ),

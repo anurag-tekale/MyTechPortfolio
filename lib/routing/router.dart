@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:satyam_website/routing/route_names.dart';
-import 'package:satyam_website/views/about/about_view.dart';
-import 'package:satyam_website/views/home/home_view.dart';
-import 'package:satyam_website/views/Experience/experience_view.dart';
-import 'package:satyam_website/views/Project/project_view.dart';
+import 'package:anurag_website/routing/route_names.dart';
+import 'package:anurag_website/views/about/about_view.dart';
+import 'package:anurag_website/views/home/home_view.dart';
+import 'package:anurag_website/views/Experience/experience_view.dart';
+import 'package:anurag_website/views/Project/project_view.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings) {
   print('generateRoute: ${settings.name}');

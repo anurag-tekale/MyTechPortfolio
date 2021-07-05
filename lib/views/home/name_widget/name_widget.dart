@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
-import 'package:satyam_website/Colors//colors.dart';
+import 'package:anurag_website/Colors//colors.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:velocity_x/velocity_x.dart';
-import 'package:satyam_website/extensions/hover_extensions.dart';
+import 'package:anurag_website/extensions/hover_extensions.dart';
 
 class NameWidget extends StatelessWidget {
   const NameWidget({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    double c_width = MediaQuery.of(context).size.width * 0.5;
-    double c_height = MediaQuery.of(context).size.height * 0.55;
+    double cheight = MediaQuery.of(context).size.height * 0.55;
 
-    final SNameWidget = "Satyam\nGoyal."
+    final sNameWidget = "Satyam\nGoyal."
         .text
         .white
         .xl6
@@ -25,7 +24,7 @@ class NameWidget extends StatelessWidget {
 
     return Container(
       width: 600,
-      height: c_height,
+      height: cheight,
       child: Padding(
         padding: const EdgeInsets.fromLTRB(60, 0, 0, 0),
         child: ListView(
@@ -40,7 +39,7 @@ class NameWidget extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
-            SNameWidget,
+            sNameWidget,
             SizedBox(
               height: 30,
             ),

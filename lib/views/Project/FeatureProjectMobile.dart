@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:satyam_website/Colors/colors.dart';
-import 'package:satyam_website/widgets/custom_text/CustomText.dart';
+import 'package:anurag_website/widgets/custom_text/CustomText.dart';
 
 class MobileProject extends StatelessWidget {
   final Function ontab;

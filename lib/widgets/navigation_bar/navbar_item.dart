@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:satyam_website/Colors/colors.dart';
-import 'package:satyam_website/locator.dart';
-import 'package:satyam_website/services/navigation_service.dart';
+import 'package:anurag_website/locator.dart';
+import 'package:anurag_website/services/navigation_service.dart';
 
 
 class NavBarItem extends StatelessWidget {

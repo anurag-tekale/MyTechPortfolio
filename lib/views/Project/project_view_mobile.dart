@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:satyam_website/Colors/colors.dart';
-import 'package:satyam_website/widgets/method/method.dart';
+import 'package:anurag_website/Colors/colors.dart';
+import 'package:anurag_website/widgets/method/method.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:velocity_x/velocity_x.dart';
-import 'package:satyam_website/views/Project/FeatureProjectMobile.dart';
-import 'package:satyam_website/extensions/hover_extensions.dart';
+import 'package:anurag_website/views/Project/FeatureProjectMobile.dart';
+import 'package:anurag_website/extensions/hover_extensions.dart';
 
 class ProjectViewMobile extends StatelessWidget {
   const ProjectViewMobile({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    final ProjectTitle = "--- Some Things I've Built ---"
+    final projectTitle = "--- Some Things I've Built ---"
         .text
         .white
         .xl
@@ -34,7 +34,7 @@ class ProjectViewMobile extends StatelessWidget {
               padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
               child: Align(
                 alignment: Alignment.topCenter,
-                child: ProjectTitle,
+                child: projectTitle,
               ),
             ),
             Padding(
@@ -117,14 +117,17 @@ class Projects extends StatelessWidget {
       ),
       LimitedBox(
         maxWidth: 150,
-        child: RaisedButton(
+        child: ElevatedButton(
+          style: ElevatedButton.styleFrom(
+            primary: Coolors.accentColor,
+            textStyle: TextStyle(
+              color: Coolors.primaryColor,
+            ),
+            shape: Vx.roundedSm,  
+          ),
           onPressed: () {
             launch("https://github.com/SatYu26");
           },
-          hoverColor: Vx.purple700,
-          shape: Vx.roundedSm,
-          color: Coolors.accentColor,
-          textColor: Coolors.primaryColor,
           child: "View More".text.bold.make(),
         ).h(50),
       ).showCursorOnHover.moveUpOnHover,

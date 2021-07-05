@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:satyam_website/Colors/colors.dart';
-import 'package:satyam_website/views/Experience/experiences_content_mobile.dart';
-import 'package:satyam_website/widgets/custom_text/CustomText.dart';
-import 'package:steps/steps.dart';
+
+import 'package:anurag_website/views/Experience/experiences_content_mobile.dart';
+
+
 import 'package:velocity_x/velocity_x.dart';
 
 class ExperienceViewMobile extends StatelessWidget {
@@ -10,7 +10,7 @@ class ExperienceViewMobile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final ExperienceTitle = "--- Where I've Worked ---"
+    final experienceTitle = "--- Where I've Worked ---"
         .text
         .white
         .xl
@@ -19,7 +19,6 @@ class ExperienceViewMobile extends StatelessWidget {
         .bold
         .make()
         .shimmer();
-    var size = MediaQuery.of(context).size;
     return Container(
       height: MediaQuery.of(context).size.height * 1.5,
       width: MediaQuery.of(context).size.width - 100,
@@ -31,7 +30,7 @@ class ExperienceViewMobile extends StatelessWidget {
             padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
             child: Align(
               alignment: Alignment.topCenter,
-              child: ExperienceTitle,
+              child: experienceTitle,
             ),
           ),
           // Align(

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:satyam_website/Colors/colors.dart';
-import 'package:satyam_website/views/about/MyPic_widget_desktop.dart';
-import 'package:satyam_website/views/about/about_view_intro_desktop.dart';
+import 'package:anurag_website/views/about/MyPic_widget_desktop.dart';
+import 'package:anurag_website/views/about/about_view_intro_desktop.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class AboutContentDesktop extends StatelessWidget {
@@ -9,7 +8,7 @@ class AboutContentDesktop extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final AboutTitle = "--- About Me ---"
+    final aboutTitle = "--- About Me ---"
         .text
         .white
         .xl
@@ -34,7 +33,7 @@ class AboutContentDesktop extends StatelessWidget {
                 padding: const EdgeInsets.fromLTRB(0, 10, 0, 20),
                 child: Align(
                   alignment: Alignment.center,
-                  child: AboutTitle,
+                  child: aboutTitle,
                 ),
               ),
               Align(alignment:Alignment.centerRight , child: IntroductionAboutDesktop(),),

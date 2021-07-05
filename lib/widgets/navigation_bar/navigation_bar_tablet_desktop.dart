@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:satyam_website/Colors/colors.dart';
-import 'package:satyam_website/routing/route_names.dart';
-import 'package:satyam_website/widgets/navigation_bar/navbar_item.dart';
-import 'package:satyam_website/widgets/navigation_bar/navbar_logo.dart';
-import 'package:satyam_website/extensions/hover_extensions.dart';
+import 'package:anurag_website/routing/route_names.dart';
+import 'package:anurag_website/widgets/navigation_bar/navbar_item.dart';
+import 'package:anurag_website/widgets/navigation_bar/navbar_logo.dart';
+import 'package:anurag_website/extensions/hover_extensions.dart';
 
 class NavigationBarTabletDesktop extends StatelessWidget {
   const NavigationBarTabletDesktop({Key key}) : super(key: key);

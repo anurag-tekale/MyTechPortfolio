@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:satyam_website/Colors/colors.dart';
-import 'package:satyam_website/widgets/custom_text/CustomText.dart';
+import 'package:anurag_website/Colors/colors.dart';
+import 'package:anurag_website/widgets/custom_text/CustomText.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:velocity_x/velocity_x.dart';
-import 'package:satyam_website/extensions/hover_extensions.dart';
+import 'package:anurag_website/extensions/hover_extensions.dart';
 
 class IntroductionMobile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    double c_width = MediaQuery.of(context).size.width * 0.75;
-    double c_height = MediaQuery.of(context).size.height * 1.0;
+    double cwidth = MediaQuery.of(context).size.width * 0.75;
+    double cheight = MediaQuery.of(context).size.height * 1.0;
     return Container(
-      height: c_height,
-      width: c_width,
+      height: cheight,
+      width: cwidth,
       alignment: Alignment.center,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.start,

@@ -1,9 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:satyam_website/Colors/colors.dart';
-import 'package:satyam_website/views/Experience/experiences_content_desktop.dart';
-import 'package:satyam_website/widgets/custom_text/CustomText.dart';
-import 'package:steps/steps.dart';
+import 'package:anurag_website/views/Experience/experiences_content_desktop.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class ExperienceViewDesktop extends StatelessWidget {
@@ -11,7 +8,7 @@ class ExperienceViewDesktop extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final ExperienceTitle = "--- Where I've Worked ---"
+    final experienceTitle = "--- Where I've Worked ---"
         .text
         .white
         .xl
@@ -46,7 +43,7 @@ class ExperienceViewDesktop extends StatelessWidget {
                 padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
                 child: Align(
                   alignment: Alignment.topCenter,
-                  child: ExperienceTitle,
+                  child: experienceTitle,
                 ),
               ),
               SizedBox(

@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
-import 'package:satyam_website/locator.dart';
-import 'package:satyam_website/widgets/nav_drawer/navigation_drawer.dart';
-import 'package:satyam_website/routing/route_names.dart';
-import 'package:satyam_website/routing/router.dart';
-import 'package:satyam_website/services/navigation_service.dart';
-import 'package:satyam_website/widgets/centered_view/centered_view.dart';
-import 'package:satyam_website/widgets/navigation_bar/navigation_bar.dart';
-import 'package:satyam_website/Colors/colors.dart';
+import 'package:anurag_website/locator.dart';
+import 'package:anurag_website/widgets/nav_drawer/navigation_drawer.dart';
+import 'package:anurag_website/routing/route_names.dart';
+import 'package:anurag_website/routing/router.dart';
+import 'package:anurag_website/services/navigation_service.dart';
+import 'package:anurag_website/widgets/navigation_bar/navigation_bar.dart';
+
 
 class LayoutTemplate extends StatelessWidget {
   const LayoutTemplate({Key key}) : super(key: key);

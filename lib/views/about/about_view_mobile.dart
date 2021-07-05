@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:satyam_website/Colors/colors.dart';
-import 'package:satyam_website/views/about/MyPic_widget_mobile.dart';
-import 'package:satyam_website/views/about/about_view_intro_mobile.dart';
+import 'package:anurag_website/views/about/MyPic_widget_mobile.dart';
+import 'package:anurag_website/views/about/about_view_intro_mobile.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class AboutContentMobile extends StatelessWidget {
@@ -9,7 +8,7 @@ class AboutContentMobile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final AboutTitle = "--- About Me ---"
+    final aboutTitle = "--- About Me ---"
         .text
         .white
         .xl
@@ -31,7 +30,7 @@ class AboutContentMobile extends StatelessWidget {
               padding: const EdgeInsets.fromLTRB(0,10,0,10),
               child: Align(
                 alignment: Alignment.topCenter,
-                child: AboutTitle,
+                child: aboutTitle,
               ),
             ),
             Align(

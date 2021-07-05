@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:satyam_website/locator.dart';
-import 'package:satyam_website/Colors/colors.dart';
-import 'package:satyam_website/views/layout_template/layout_template.dart';
+import 'package:anurag_website/locator.dart';
+import 'package:anurag_website/Colors/colors.dart';
+import 'package:anurag_website/views/layout_template/layout_template.dart';
 
 void main() {
   setupLocator();

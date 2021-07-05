@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:satyam_website/Colors/colors.dart';
 import 'drawer_logo.dart';
 
 class NavigationDrawerHeader extends StatelessWidget {

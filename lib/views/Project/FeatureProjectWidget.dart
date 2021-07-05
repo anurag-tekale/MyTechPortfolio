@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:satyam_website/widgets/custom_text/CustomText.dart';
-import 'package:satyam_website/extensions/hover_extensions.dart';
+import 'package:anurag_website/widgets/custom_text/CustomText.dart';
+import 'package:anurag_website/extensions/hover_extensions.dart';
 
 class FeatureProject extends StatelessWidget {
   final String imagePath;

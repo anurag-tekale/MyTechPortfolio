@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:satyam_website/Colors/colors.dart';
-import 'package:satyam_website/widgets/navigation_bar/navbar_logo.dart';
-import 'package:satyam_website/widgets/nav_drawer/navigation_drawer.dart';
+import 'package:anurag_website/Colors/colors.dart';
+import 'package:anurag_website/widgets/navigation_bar/navbar_logo.dart';
 
 
 class NavigationBarMobile extends StatelessWidget {

@@ -6,7 +6,7 @@ class ExperiencesMobile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var size = MediaQuery.of(context).size;
+
 
     return Container(
       height: MediaQuery.of(context).size.height*0.81,

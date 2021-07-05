@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:satyam_website/Colors/colors.dart';
-import 'package:satyam_website/views/Project/FeatureProjectInvertedWidget.dart';
-import 'package:satyam_website/views/Project/FeatureProjectWidget.dart';
-import 'package:satyam_website/widgets/method/method.dart';
+import 'package:anurag_website/Colors/colors.dart';
+import 'package:anurag_website/views/Project/FeatureProjectInvertedWidget.dart';
+import 'package:anurag_website/views/Project/FeatureProjectWidget.dart';
+import 'package:anurag_website/widgets/method/method.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:velocity_x/velocity_x.dart';
-import 'package:satyam_website/extensions/hover_extensions.dart';
+import 'package:anurag_website/extensions/hover_extensions.dart';
 
 class ProjectViewDesktop extends StatelessWidget {
   const ProjectViewDesktop({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    final ProjectTitle = "--- Some Things I've Built ---"
+    final projectTitle = "--- Some Things I've Built ---"
         .text
         .white
         .xl
@@ -45,7 +45,7 @@ class ProjectViewDesktop extends StatelessWidget {
                 padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
                 child: Align(
                   alignment: Alignment.topCenter,
-                  child: ProjectTitle,
+                  child: projectTitle,
                 ),
               ),
               SizedBox(

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
-import 'package:satyam_website/views/home/home_content_mobile.dart';
-import 'package:satyam_website/views/home/home_content_desktop.dart';
+import 'package:anurag_website/views/home/home_content_mobile.dart';
+import 'package:anurag_website/views/home/home_content_desktop.dart';
 
 
 class HomeView extends StatelessWidget {

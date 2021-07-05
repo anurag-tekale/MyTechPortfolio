@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:satyam_website/routing/route_names.dart';
-import 'package:satyam_website/widgets/nav_drawer/navigation_drawer_footer.dart';
+import 'package:anurag_website/routing/route_names.dart';
+import 'package:anurag_website/widgets/nav_drawer/navigation_drawer_footer.dart';
 import 'navigation_drawer_header.dart';
 import 'drawer_item.dart';
 
