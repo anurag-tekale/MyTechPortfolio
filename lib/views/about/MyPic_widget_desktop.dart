@@ -14,7 +14,7 @@ class MyPicAboutDesktop extends StatelessWidget {
           Align(
             alignment: Alignment.centerLeft,
 //            child: SizedBox(height: 400, width: 400, child: MyPicWidget()),
-          child: MyPicWidget(),
+            child: MyPicWidget(),
           ),
         ],
       ),
@@ -33,7 +33,7 @@ class MyPicWidget extends StatelessWidget {
     return Image(
       height: size.height,
       fit: BoxFit.fitHeight,
-      image: AssetImage("assets/MyPic.png"),
+      image: AssetImage(""),
     );
   }
 }

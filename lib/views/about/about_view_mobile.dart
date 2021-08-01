@@ -20,32 +20,28 @@ class AboutContentMobile extends StatelessWidget {
     return Container(
       // color: Color(0xff0A192F),
       width: MediaQuery.of(context).size.width,
-      height: MediaQuery.of(context).size.height*2.0,
+      height: MediaQuery.of(context).size.height * 2.0,
       child: ListView(
 //          shrinkWrap: true,
           physics: NeverScrollableScrollPhysics(),
           addAutomaticKeepAlives: true,
           children: <Widget>[
             Padding(
-              padding: const EdgeInsets.fromLTRB(0,10,0,10),
+              padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
               child: Align(
                 alignment: Alignment.topCenter,
                 child: aboutTitle,
               ),
             ),
-            Align(
-                alignment: Alignment.center,
-                child: MyPicAboutMobile()
-            ),
+            Align(alignment: Alignment.center, child: MyPicAboutMobile()),
             SizedBox(
               height: 20,
             ),
             Padding(
-              padding: const EdgeInsets.fromLTRB(20,0,20,0),
+              padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
               child: IntroductionAboutMobile(),
             ),
-          ]
-      ),
+          ]),
     );
   }
 }

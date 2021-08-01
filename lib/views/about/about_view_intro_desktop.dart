@@ -52,30 +52,23 @@ class Introduction extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
-    final aboutIntroWidget =
-        "Satyam is a 3rd-year student at SRM Institute of Science and Technology pursuing the Electrical and Electronics branch."
-            "Despite being from a non-technical branch, Satyam is highly interested and skilled in Computer Science"
+    final aboutIntroWidget = "Anurag is a 3rd-year student at Mahindra Unicersity pursuing the Mechanical branch."
+            "Despite being from a non-technical branch, Anurag is highly interested and skilled in Computer Science"
             " and is constantly making his way to learn new skills and grab knowledge every day through hard work and dedication"
             "to improving himself to succeed in the future.\n\n"
-        "He also feels uncomfortable talking about himself in the third person ;)\n"
-    "Currently, Satyam is learning React.js and to make unique Websites."
-    "He is highly skilled in making Android, Web, and Desktop apps using Flutter and Dart. He is also good at Machine Learning and Deep Learning."
-    "He also believes in giving back to the community; therefore, he regularly makes Open Source contributions and has been part of open source events like Girl Script Summer of Code and many renowned Hackathons across the Globe."
-    "He is also interested in Competetive Coding is trying to improve his skills every day.\n"
-
-    "Satyam is also part of various organizations such as Developer Student Clubs (DSC) SRM, and Microsoft Learn Student Ambassador and has made healthy contributions to the organizations and the community."
-
-    "Satyam has the vision to improve himself every day and achieve great success with sheer hard work and dedication in the near future.\n\n"
-
-    "Do Cheer up for Satyam...!"
-
-            .text
-            .gray500
-            .sm
-            .make()
-            .w(context.isMobile
-                ? context.screenWidth
-                : context.percentWidth * 40);
+            "He also feels uncomfortable talking about himself in the third person ;)\n"
+            "Currently, Anurag is learning Machine Learning and Arduino."
+            "He is highly skilled in making Android, Web, and Desktop apps using Flutter and Dart. He is also good at Machine Learning and Deep Learning."
+            "He also believes in giving back to the community; therefore, he regularly makes Open Source contributions and has been part of open source events like Girl Script Summer of Code and many renowned Hackathons across the Globe."
+            "He is also interested in Competetive Coding is trying to improve his skills every day.\n"
+            "Anurag is also part of SAE Aero ( MU Club ) and was part of COVINDIA ( A website that hit a Million Views in 2 Weeks)."
+            "Anurag has the vision to improve himself every day and achieve great success with sheer hard work and dedication in the near future.\n\n"
+            "Do Cheer up for Anurag...!"
+        .text
+        .gray500
+        .sm
+        .make()
+        .w(context.isMobile ? context.screenWidth : context.percentWidth * 40);
     return ListView(children: <Widget>[
       // Flexible(child: AboutintroWidget),
       aboutIntroWidget,
@@ -83,8 +76,7 @@ class Introduction extends StatelessWidget {
         height: 20,
       ),
       CustomText(
-        text:
-            "Here are a few technologies I've been working with recently:\n",
+        text: "Here are a few technologies I've been working with recently:\n",
         textsize: 16.0,
         color: Color(0xff828DAA),
         fontWeight: FontWeight.w500,
@@ -102,10 +94,10 @@ class Introduction extends StatelessWidget {
               child: Column(
                 children: [
                   technology(context, "Flutter"),
-                  technology(context, "Dart"),
+                  technology(context, "C++"),
                   technology(context, "Python"),
-                  technology(context, "UI/UX"),
-                  technology(context, "Tensorflow JS"),
+                  technology(context, "DS & Algo"),
+                  technology(context, "Tensorflow"),
                 ],
               ),
             ),
@@ -118,7 +110,7 @@ class Introduction extends StatelessWidget {
                   technology(context, "JavaScript"),
                   technology(context, "Open CV"),
                   technology(context, "Machine Learning"),
-                  technology(context, "Node.js"),
+                  technology(context, "Arduino"),
                 ],
               ),
             )

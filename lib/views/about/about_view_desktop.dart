@@ -20,7 +20,7 @@ class AboutContentDesktop extends StatelessWidget {
     return Container(
       // color: Color(0xff0A192F),
       width: MediaQuery.of(context).size.width,
-      height: MediaQuery.of(context).size.height*0.89,
+      height: MediaQuery.of(context).size.height * 0.89,
       child: Stack(
         fit: StackFit.expand,
         children: [
@@ -36,7 +36,10 @@ class AboutContentDesktop extends StatelessWidget {
                   child: aboutTitle,
                 ),
               ),
-              Align(alignment:Alignment.centerRight , child: IntroductionAboutDesktop(),),
+              Align(
+                alignment: Alignment.centerRight,
+                child: IntroductionAboutDesktop(),
+              ),
               // Row(
               //     mainAxisAlignment: MainAxisAlignment.end,
               //     crossAxisAlignment: CrossAxisAlignment.center,

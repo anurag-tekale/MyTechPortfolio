@@ -23,7 +23,7 @@ class ProjectViewDesktop extends StatelessWidget {
         .shimmer();
     return Container(
       // color: Color(0xff0A192F),
-      width: MediaQuery.of(context).size.width,
+      width: MediaQuery.of(context).size.width ,
       height: MediaQuery.of(context).size.height * 0.88,
       child: Stack(
         fit: StackFit.expand,
@@ -75,7 +75,7 @@ class Projects extends StatelessWidget {
           ontab: () {
             method.launchURL("https://github.com/SatYu26/Catch-Me-Portfolio");
           },
-          projectDesc: "A simple portfolio Website with some fun.",
+          projectDesc: "RU_Hackathon.",
           projectTitle: "Catch Me Portfolio",
           tech1: "JavaScript",
           tech2: "CSS",
