@@ -11,10 +11,6 @@ The first iteration of <a href="https://satyamgoyal.codes/" target="_blank">saty
 crafted with <span style="color: #8b0000;">&hearts;</span> and Flutter by Satyam Goyal
 </p>
 <p align="center">
-    <img src="https://img.shields.io/badge/author-Satyam_Goyal-blue" alt="author Satyam Goyal"/>
+    <img src="https://img.shields.io/badge/author-Satyam_Goyal-blue" alt="author Anurag Tekale"/>
 </p>
 
-
-## 📜 License
-
-`Portfolio-Code-Flutter` is available under the MIT license. See the LICENSE file for more info.
