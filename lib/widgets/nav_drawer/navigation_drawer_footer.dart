@@ -14,7 +14,7 @@ class NavigationDrawerFooter extends StatelessWidget {
         width: MediaQuery.of(context).size.width - 100,
         //color: Colors.white,
         child: Text(
-          "Designed & Built by\nSatyam Goyal 💙 Flutter",
+          "Designed & Built by\nAnurag Tekale 💙 Flutter",
           textAlign: TextAlign.center,
           style: TextStyle(
             color: Colors.white.withOpacity(0.4),

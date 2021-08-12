@@ -6,10 +6,9 @@ class ExperiencesDesktop extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return Container(
       height: MediaQuery.of(context).size.height,
-      width: MediaQuery.of(context).size.width*0.6,
+      width: MediaQuery.of(context).size.width * 0.6,
       alignment: Alignment.topCenter,
       child: Steps(
         direction: Axis.vertical,
@@ -19,13 +18,13 @@ class ExperiencesDesktop extends StatelessWidget {
           {
             'color': Color(0xff64FFDA),
             'background': Colors.indigo,
-            'label': '📱',
+            'label': '🌟',
             'content': Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  "Pedals Up",
+                  "AERO CLUB - MU",
                   style: TextStyle(
                     fontSize: 22.0,
                     color: Colors.white,
@@ -36,163 +35,7 @@ class ExperiencesDesktop extends StatelessWidget {
                   height: 6.0,
                 ),
                 Text(
-                  "I work as a Full Stack Web and Android Developer an an Intern in Pedals Up.\n",
-                  style: TextStyle(
-                    fontSize: 13.0,
-                    color: Color(0xffCCD6F6).withOpacity(0.5),
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-                Text(
-                  "April 2021 - Present",
-                  style: TextStyle(
-                    fontSize: 12.0,
-                    color: Color(0xffCCD6F6).withOpacity(0.5),
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-              ],
-            ),
-          },
-          {
-            'color': Color(0xff64FFDA),
-            'background': Colors.indigo,
-            'label': "📱",
-            'content': Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: <Widget>[
-                Text(
-                  "Robic Rufarm",
-                  style: TextStyle(
-                    fontSize: 22.0,
-                    color: Colors.white,
-                    fontWeight: FontWeight.w700,
-                  ),
-                ),
-                SizedBox(
-                  height: 6.0,
-                ),
-                Text(
-                  "As Application Developer my key responsibilities include:-\n"
-                      "-Design and develop a web application and an Android application from scratch.\n"
-                      "The purpose of these applications is to monitor and interact with the Aerator system in the aquaculture farms.\n",
-                  style: TextStyle(
-                    fontSize: 13.0,
-                    color: Color(0xffCCD6F6).withOpacity(0.5),
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-                Text(
-                  "April - 2020 - May - 2020 ",
-                  style: TextStyle(
-                    fontSize: 12.0,
-                    color: Color(0xffCCD6F6).withOpacity(0.5),
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-              ],
-            ),
-          },
-
-          {
-            'color': Color(0xff64FFDA),
-            'background': Colors.indigo,
-            'label': "📱",
-            'content': Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: <Widget>[
-                Text(
-                  "Lets Develop IT",
-                  style: TextStyle(
-                    fontSize: 22.0,
-                    color: Colors.white,
-                    fontWeight: FontWeight.w700,
-                  ),
-                ),
-                SizedBox(
-                  height: 6.0,
-                ),
-                Text(
-                  "I worked as a Flutter Developer and helped in designing the App for the organization.\n",
-                  style: TextStyle(
-                    fontSize: 13.0,
-                    color: Color(0xffCCD6F6).withOpacity(0.5),
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-                Text(
-                  "November - 2020 ",
-                  style: TextStyle(
-                    fontSize: 12.0,
-                    color: Color(0xffCCD6F6).withOpacity(0.5),
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-              ],
-            ),
-          },
-
-          {
-            'color': Color(0xff64FFDA),
-            'background': Colors.indigo,
-            'label': '👷🏻‍♀️',
-            'content': Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: <Widget>[
-                Text(
-                  "UltraTech Cement - Aditya Birla Group",
-                  style: TextStyle(
-                    fontSize: 22.0,
-                    color: Colors.white,
-                    fontWeight: FontWeight.w700,
-                  ),
-                ),
-                SizedBox(
-                  height: 6.0,
-                ),
-                Text(
-                  "I worked as Summer Intern for Industrial Training In Electrical and Electronics Department \nand Gained real life experience and knowledge related to Electrical and Electronics.\n",
-                  style: TextStyle(
-                    fontSize: 13.0,
-                    color: Color(0xffCCD6F6).withOpacity(0.5),
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-                Text(
-                  "May - 2019 - July - 2019 ",
-                  style: TextStyle(
-                    fontSize: 12.0,
-                    color: Color(0xffCCD6F6).withOpacity(0.5),
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-              ],
-            ),
-          },
-          {
-            'color': Color(0xff64FFDA),
-            'background': Colors.indigo,
-            'label': '🎥',
-            'content': Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: <Widget>[
-                Text(
-                  "Developer Student Clubs (DSC) SRM",
-                  style: TextStyle(
-                    fontSize: 22.0,
-                    color: Colors.white,
-                    fontWeight: FontWeight.w700,
-                  ),
-                ),
-                SizedBox(
-                  height: 6.0,
-                ),
-                Text(
-                  "I am Currently Lead of Creatives and Photography Domain in DSC Campus Club at SRM.\n",
+                  "I am Currently part of Micro Team in our Aero club.\n",
                   style: TextStyle(
                     fontSize: 13.0,
                     color: Color(0xffCCD6F6).withOpacity(0.5),
@@ -213,13 +56,91 @@ class ExperiencesDesktop extends StatelessWidget {
           {
             'color': Color(0xff64FFDA),
             'background': Colors.indigo,
+            'label': '📱',
+            'content': Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: <Widget>[
+                Text(
+                  "Wyndo",
+                  style: TextStyle(
+                    fontSize: 22.0,
+                    color: Colors.white,
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+                SizedBox(
+                  height: 6.0,
+                ),
+                Text(
+                  "I worked on a Freelance Project called Wyndo.\n",
+                  style: TextStyle(
+                    fontSize: 13.0,
+                    color: Color(0xffCCD6F6).withOpacity(0.5),
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+                Text(
+                  "May - 2020 - September - 2020 ",
+                  style: TextStyle(
+                    fontSize: 12.0,
+                    color: Color(0xffCCD6F6).withOpacity(0.5),
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+              ],
+            ),
+          },
+          {
+            'color': Color(0xff64FFDA),
+            'background': Colors.indigo,
+            'label': "📱",
+            'content': Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: <Widget>[
+                Text(
+                  "Widhya",
+                  style: TextStyle(
+                    fontSize: 22.0,
+                    color: Colors.white,
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+                SizedBox(
+                  height: 6.0,
+                ),
+                Text(
+                  "As Software Development Engineer my key responsibilities include:-\n"
+                  "-Design and develop web pages from scratch.\n"
+                  "-Worked on improving and building the User Interface ( UI ) for Widhya's platform.\n",
+                  style: TextStyle(
+                    fontSize: 13.0,
+                    color: Color(0xffCCD6F6).withOpacity(0.5),
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+                Text(
+                  "May - 2020 - July - 2020 ",
+                  style: TextStyle(
+                    fontSize: 12.0,
+                    color: Color(0xffCCD6F6).withOpacity(0.5),
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+              ],
+            ),
+          },
+          {
+            'color': Color(0xff64FFDA),
+            'background': Colors.indigo,
             'label': '🌟',
             'content': Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  "Microsoft Learn Student Ambassador (β)",
+                  "CovIndia",
                   style: TextStyle(
                     fontSize: 22.0,
                     color: Colors.white,
@@ -230,8 +151,8 @@ class ExperiencesDesktop extends StatelessWidget {
                   height: 6.0,
                 ),
                 Text(
-                  "Hosted a 2 hours Hands On Workshop on Understanding Open CV and Gestures Control Car Racing Game.\nGained leadership experience, access to resources such as Microsoft Learn and Azure credits,\nand a diverse Microsoft network to develop their technical career.\n"
-                  "Finished learning paths based on AI and many more and gained knowledge and skills.\nOn-campus student leader with a passion for sharing technology with classmates and\nintroduce them to valuable student benefits like Microsoft Azure.\n",
+                  "I was a part of CovIndia Team (The website that hit million views in 2 weeks)\n"
+                  "-Data Acquisition",
                   style: TextStyle(
                     fontSize: 13.0,
                     color: Color(0xffCCD6F6).withOpacity(0.5),
@@ -239,83 +160,7 @@ class ExperiencesDesktop extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "January 2020 - Present ",
-                  style: TextStyle(
-                    fontSize: 12.0,
-                    color: Color(0xffCCD6F6).withOpacity(0.5),
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-              ],
-            ),
-          },
-          {
-            'color': Color(0xff64FFDA),
-            'background': Colors.indigo,
-            'label': '🎥',
-            'content': Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: <Widget>[
-                Text(
-                  "GeeksForGeeks SRM",
-                  style: TextStyle(
-                    fontSize: 22.0,
-                    color: Colors.white,
-                    fontWeight: FontWeight.w700,
-                  ),
-                ),
-                SizedBox(
-                  height: 6.0,
-                ),
-                Text(
-                  "I am Currently Member of Creatives and Photography Domain in GeeksForGeeks Campus Club.\n",
-                  style: TextStyle(
-                    fontSize: 13.0,
-                    color: Color(0xffCCD6F6).withOpacity(0.5),
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-                Text(
-                  "August - 2020 - February - 2021 ",
-                  style: TextStyle(
-                    fontSize: 12.0,
-                    color: Color(0xffCCD6F6).withOpacity(0.5),
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-              ],
-            ),
-          },
-          {
-            'color': Color(0xff64FFDA),
-            'background': Colors.indigo,
-            'label': '💬',
-            'content': Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: <Widget>[
-                Text(
-                  "International Model United Nations",
-                  style: TextStyle(
-                    fontSize: 22.0,
-                    color: Colors.white,
-                    fontWeight: FontWeight.w700,
-                  ),
-                ),
-                SizedBox(
-                  height: 6.0,
-                ),
-                Text(
-                  "I worked as Official Campus Ambassador of International MUN.\n",
-                  style: TextStyle(
-                    fontSize: 13.0,
-                    color: Color(0xffCCD6F6).withOpacity(0.5),
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-                Text(
-                  "June - 2020 - July - 2020 ",
+                  "April - 2020 - June - 2020 ",
                   style: TextStyle(
                     fontSize: 12.0,
                     color: Color(0xffCCD6F6).withOpacity(0.5),

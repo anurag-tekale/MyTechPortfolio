@@ -7,7 +7,7 @@ class DrawerLogo extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       height: 95,
-      child: Image.asset('assets/logo.png'),
+      child: Image.asset(''),
     );
   }
 }

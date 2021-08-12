@@ -33,7 +33,7 @@ class Introduction extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final introWidget =
-        "I am your friendly Neighbourhood Developer and a Learning Enthusiast, who is obsessed with the idea of improving himself and wants a team to work on ideas\n"
+        "I am your friendly Neighbourhood Developer and a Learning Enthusiast, who is obsessed with the idea of improving himself and wants a team to work on ideas . \n"
             .text
             .white
             .xl2

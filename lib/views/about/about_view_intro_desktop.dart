@@ -52,18 +52,16 @@ class Introduction extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
-    final aboutIntroWidget = "Anurag is a 3rd-year student at Mahindra Unicersity pursuing the Mechanical branch."
-            "Despite being from a non-technical branch, Anurag is highly interested and skilled in Computer Science"
-            " and is constantly making his way to learn new skills and grab knowledge every day through hard work and dedication"
-            "to improving himself to succeed in the future.\n\n"
-            "He also feels uncomfortable talking about himself in the third person ;)\n"
-            "Currently, Anurag is learning Machine Learning and Arduino."
-            "He is highly skilled in making Android, Web, and Desktop apps using Flutter and Dart. He is also good at Machine Learning and Deep Learning."
-            "He also believes in giving back to the community; therefore, he regularly makes Open Source contributions and has been part of open source events like Girl Script Summer of Code and many renowned Hackathons across the Globe."
-            "He is also interested in Competetive Coding is trying to improve his skills every day.\n"
-            "Anurag is also part of SAE Aero ( MU Club ) and was part of COVINDIA ( A website that hit a Million Views in 2 Weeks)."
-            "Anurag has the vision to improve himself every day and achieve great success with sheer hard work and dedication in the near future.\n\n"
-            "Do Cheer up for Anurag...!"
+    final aboutIntroWidget = "What's up, Dear Reader. I'm Anurag Tekale, a 3rd-year student pursuing my B.Tech degree in Mechanical Engineering from Mahindra University."
+            " Despite being from a non-technical branch, I'm interested and skilled in Computer Science"
+            " and constantly making my way to learn new skills and grab knowledge every day through hard work and dedication"
+            " to improve myself to succeed in the future.\n"
+            "I enjoy creating things that live on the internet, whether that be websites, applications or anything in between . My goal is always build products that provide pixel-perfect , performant experiences."
+            " Currently, I'm learning Machine Learning and working on few projects with my friend."
+            " I also have knowledge in making Android and web apps using Flutter and Dart (Front-End)."
+            " I regularly make Open Source contributions and has been part of open source events like Hacktoberfest."
+            " I'm part of SAE Aero ( College Club ) and was part of COVINDIA ( A website that hit a Million Views in 2 Weeks).\n\n"
+            "Do Cheer up for Me...!"
         .text
         .gray500
         .sm
@@ -96,7 +94,7 @@ class Introduction extends StatelessWidget {
                   technology(context, "Flutter"),
                   technology(context, "C++"),
                   technology(context, "Python"),
-                  technology(context, "DS & Algo"),
+                  technology(context, "Firebase"),
                   technology(context, "Tensorflow"),
                 ],
               ),
@@ -106,7 +104,7 @@ class Introduction extends StatelessWidget {
               // height: size.height * 0.25,
               child: Column(
                 children: [
-                  technology(context, "React"),
+                  technology(context, "UI/UX (Adobe Xd)"),
                   technology(context, "JavaScript"),
                   technology(context, "Open CV"),
                   technology(context, "Machine Learning"),

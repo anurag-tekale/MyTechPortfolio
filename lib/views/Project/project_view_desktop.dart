@@ -12,7 +12,7 @@ class ProjectViewDesktop extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final projectTitle = "--- Some Things I've Built ---"
+    final ProjectTitle = "--- Some Things I've Built ---"
         .text
         .white
         .xl
@@ -23,7 +23,7 @@ class ProjectViewDesktop extends StatelessWidget {
         .shimmer();
     return Container(
       // color: Color(0xff0A192F),
-      width: MediaQuery.of(context).size.width ,
+      width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height * 0.88,
       child: Stack(
         fit: StackFit.expand,
@@ -45,7 +45,7 @@ class ProjectViewDesktop extends StatelessWidget {
                 padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
                 child: Align(
                   alignment: Alignment.topCenter,
-                  child: projectTitle,
+                  child: ProjectTitle,
                 ),
               ),
               SizedBox(
@@ -70,22 +70,35 @@ class Projects extends StatelessWidget {
         SizedBox(
           height: size.height * 0.04,
         ),
-        FeatureProject(
-          imagePath: "assets/cmP.png",
+        FeatureProjectInverted(
+          imagePath: "assets/widhya.png",
           ontab: () {
-            method.launchURL("https://github.com/SatYu26/Catch-Me-Portfolio");
+            method.launchURL(
+                "https://github.com/anurag-tekale/Mec_Management_AppUI");
           },
-          projectDesc: "RU_Hackathon.",
-          projectTitle: "Catch Me Portfolio",
-          tech1: "JavaScript",
-          tech2: "CSS",
-          tech3: "HTML",
+          projectDesc: "A Simple College Management App",
+          projectTitle: "Design Thinking Lab Project",
+          tech1: "Flutter",
+          tech2: "Firebase",
+          tech3: "UI/UX",
+        ),
+        FeatureProject(
+          imagePath: "assets/RU.png",
+          ontab: () {
+            method.launchURL("https://devpost.com/software/connect-0qgxr8");
+          },
+          projectDesc:
+              "Connect helps students who need assistance in studying.\nKnow more",
+          projectTitle: "Connect",
+          tech1: "Flutter",
+          tech2: "Firebase",
+          tech3: "AdobeXd",
         ),
         FeatureProjectInverted(
           imagePath: "assets/Portfolio.png",
           ontab: () {
-            method
-                .launchURL("https://github.com/SatYu26/Portfolio-Code-Flutter");
+            method.launchURL(
+                "https://www.canva.com/design/DAEffYwSnyU/view?utm_content=DAEffYwSnyU&utm_campaign=designshare&utm_medium=link&utm_source=viewer");
           },
           projectDesc: "My Portfolio website created using Flutter",
           projectTitle: "Portfolio",
@@ -97,43 +110,45 @@ class Projects extends StatelessWidget {
           imagePath: "assets/tfjs.png",
           ontab: () {
             method.launchURL(
-                "https://github.com/SatYu26/Hand-Gesture-Classifier-With-Tensorflow.js");
+                "https://www.canva.com/design/DAEffYwSnyU/view?utm_content=DAEffYwSnyU&utm_campaign=designshare&utm_medium=link&utm_source=viewer");
           },
           projectDesc:
-              "It is a browser based Rock, Paper and Scissor(Hand Gestures) classifier Created Using Tensorflow.js.",
-          projectTitle: "Hand Gesture Classifier",
-          tech1: "JavaScript",
+              "Detects whether you have mask on or off\nCreated Using Tensorflow and ComputerVision.",
+          projectTitle: "RealTime FaceMask Detection",
+          tech1: "ComputerVision",
           tech2: "Tensorflow",
           tech3: "ML",
         ),
         FeatureProjectInverted(
-          imagePath: "assets/flash.png",
+          imagePath: "assets/widhya.png",
           ontab: () {
-            method.launchURL("https://github.com/SatYu26/Flash-Type");
+            method.launchURL(
+                "https://github.com/anurag-tekale/Widhya_Internship");
           },
-          projectDesc: "A Fully Functioning Typing Speed Checker Website",
-          projectTitle: "Flash Type",
-          tech1: "React",
-          tech2: "JavaScript",
-          tech3: "CSS",
+          projectDesc: "Software Development Engineer",
+          projectTitle: "Widhya Internship",
+          tech1: "Flutter",
+          tech2: "Firebase",
+          tech3: "UI/UX",
         ),
         FeatureProject(
-          imagePath: "assets/wi.png",
+          imagePath: "assets/e-summit.jpg",
           ontab: () {
-            method.launchURL("https://github.com/SatYu26/WhatImage");
+            method.launchURL(
+                "https://github.com/anurag-tekale/E-Summit_Hackathon");
           },
           projectDesc:
-              "A modern application that can classify images for you and will store the classification history.",
-          projectTitle: "What Image",
-          tech1: "React.js",
-          tech2: "JavaScript",
-          tech3: "Node.js",
+              "A modern application for farmers to sell their goods directly to the customers.",
+          projectTitle: "E-Summit Hackathon",
+          tech1: "Html",
+          tech2: "Css",
+          tech3: "Java",
         ),
         LimitedBox(
           maxWidth: 50,
           child: RaisedButton(
             onPressed: () {
-              launch("https://github.com/SatYu26");
+              launch("https://github.com/anurag-tekale");
             },
             hoverColor: Vx.purple700,
             shape: Vx.roundedSm,

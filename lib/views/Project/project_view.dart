@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:responsive_builder/responsive_builder.dart';
 import 'package:anurag_website/views/Project/project_view_desktop.dart';
 import 'package:anurag_website/views/Project/project_view_mobile.dart';
+import 'package:flutter/material.dart';
+import 'package:responsive_builder/responsive_builder.dart';
 
 
 class ProjectView extends StatelessWidget {

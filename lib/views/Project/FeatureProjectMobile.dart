@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:anurag_website/widgets/custom_text/CustomText.dart';
+import 'package:flutter/material.dart';
 
 class MobileProject extends StatelessWidget {
   final Function ontab;

@@ -11,7 +11,7 @@ class ProjectViewMobile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final projectTitle = "--- Some Things I've Built ---"
+    final ProjectTitle = "--- Some Things I've Built ---"
         .text
         .white
         .xl
@@ -34,7 +34,7 @@ class ProjectViewMobile extends StatelessWidget {
               padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
               child: Align(
                 alignment: Alignment.topCenter,
-                child: projectTitle,
+                child: ProjectTitle,
               ),
             ),
             Padding(
@@ -55,22 +55,35 @@ class Projects extends StatelessWidget {
     return Column(children: [
       MobileProject(
         ontab: () {
-          method.launchURL("https://github.com/SatYu26/Catch-Me-Portfolio");
+          method.launchURL("https://github.com/anurag-tekale/RU_Hackathon");
         },
         link: () {
-          method.launchURL("https://satyu26.github.io/Catch-Me-Portfolio/");
+          method.launchURL("https://devpost.com/software/connect-0qgxr8");
         },
-        projectname: 'Catch Me Portfolio',
+        projectname: 'RU Hackathon',
       ),
       SizedBox(
         height: size.height * 0.07,
       ),
       MobileProject(
         ontab: () {
-          method.launchURL("https://github.com/SatYu26/Portfolio-Code-Flutter");
+          method.launchURL("https://github.com/anurag-tekale/RU_Hackathon");
         },
         link: () {
-          method.launchURL("https://satyamgoyal.codes");
+          method.launchURL("https://devpost.com/software/connect-0qgxr8");
+        },
+        projectname: 'RU Hackathon',
+      ),
+      SizedBox(
+        height: size.height * 0.07,
+      ),
+      MobileProject(
+        ontab: () {
+          method.launchURL(
+              "https://www.canva.com/design/DAEffYwSnyU/view?utm_content=DAEffYwSnyU&utm_campaign=designshare&utm_medium=link&utm_source=viewer");
+        },
+        link: () {
+          method.launchURL("https://anurag2402.herokuapp.com/");
         },
         projectname: 'Portfolio',
       ),
@@ -80,54 +93,55 @@ class Projects extends StatelessWidget {
       MobileProject(
         ontab: () {
           method.launchURL(
-              "https://github.com/SatYu26/Hand-Gesture-Classifier-With-Tensorflow.js");
+              "https://www.canva.com/design/DAEffYwSnyU/view?utm_content=DAEffYwSnyU&utm_campaign=designshare&utm_medium=link&utm_source=viewer");
         },
         link: () {
           method.launchURL(
-              "https://github.com/SatYu26/Hand-Gesture-Classifier-With-Tensorflow.js");
+              "https://www.canva.com/design/DAEffYwSnyU/view?utm_content=DAEffYwSnyU&utm_campaign=designshare&utm_medium=link&utm_source=viewer");
         },
-        projectname: 'Hand Gesture Classifier',
+        projectname: 'RealTime FaceMask Detection',
       ),
       SizedBox(
         height: size.height * 0.07,
       ),
       MobileProject(
         ontab: () {
-          method.launchURL("https://github.com/SatYu26/Flash-Type");
+          method
+              .launchURL("https://github.com/anurag-tekale/Widhya_Internship");
         },
         link: () {
-          method.launchURL("https://satyu26.github.io/Flash-Type/");
+          method
+              .launchURL("https://github.com/anurag-tekale/Widhya_Internship");
         },
-        projectname: 'Flash Type',
+        projectname: 'Widhya Internship',
       ),
       SizedBox(
         height: size.height * 0.07,
       ),
       MobileProject(
         ontab: () {
-          method.launchURL("https://github.com/SatYu26/WhatImage");
+          method
+              .launchURL("https://github.com/anurag-tekale/E-Summit_Hackathon");
         },
         link: () {
-          method.launchURL("https://github.com/SatYu26/WhatImage");
+          method
+              .launchURL("https://github.com/anurag-tekale/E-Summit_Hackathon");
         },
-        projectname: 'What Image',
+        projectname: 'E-Summit Hackathon',
       ),
       SizedBox(
         height: size.height * 0.07,
       ),
       LimitedBox(
         maxWidth: 150,
-        child: ElevatedButton(
-          style: ElevatedButton.styleFrom(
-            primary: Coolors.accentColor,
-            textStyle: TextStyle(
-              color: Coolors.primaryColor,
-            ),
-            shape: Vx.roundedSm,  
-          ),
+        child: RaisedButton(
           onPressed: () {
-            launch("https://github.com/SatYu26");
+            launch("https://github.com/anurag-tekale");
           },
+          hoverColor: Vx.purple700,
+          shape: Vx.roundedSm,
+          color: Coolors.accentColor,
+          textColor: Coolors.primaryColor,
           child: "View More".text.bold.make(),
         ).h(50),
       ).showCursorOnHover.moveUpOnHover,
